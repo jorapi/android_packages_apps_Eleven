@@ -16,6 +16,7 @@ package com.cyanogenmod.eleven.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
+import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.preference.PreferenceManager;
 
 import com.cyanogenmod.eleven.R;
@@ -77,6 +78,12 @@ public final class PreferenceUtils {
     // show visualizer flag
     public static final String SHOW_VISUALIZER = "music_visualization";
 
+    // shake to play flag
+    public static final String SHAKE_TO_PLAY = "shake_to_play";
+
+    // show/hide album art on lockscreen
+    public static final String SHOW_ALBUM_ART_ON_LOCKSCREEN = "lockscreen_album_art";
+
     private static PreferenceUtils sInstance;
 
     private final SharedPreferences mPreferences;
@@ -118,6 +125,14 @@ public final class PreferenceUtils {
                 return null;
             }
         }, (Void[])null);
+    }
+    
+    /**
+     * Set the listener for preference change
+     * @param listener
+     */
+    public void setOnSharedPreferenceChangeListener(OnSharedPreferenceChangeListener listener){
+        mPreferences.registerOnSharedPreferenceChangeListener(listener);
     }
 
     /**
@@ -321,5 +336,13 @@ public final class PreferenceUtils {
 
     public boolean getShowVisualizer() {
         return mPreferences.getBoolean(SHOW_VISUALIZER, true);
+    }
+    
+    public boolean getShakeToPlay() {
+        return mPreferences.getBoolean(SHAKE_TO_PLAY, false);
+    }
+
+    public boolean getShowAlbumArtOnLockscreen() {
+        return mPreferences.getBoolean(SHOW_ALBUM_ART_ON_LOCKSCREEN, true);
     }
 }

@@ -48,5 +48,7 @@ interface IElevenService
     int getRepeatMode();
     int getMediaMountedCount();
     int getAudioSessionId();
+    void setShakeToPlayEnabled(boolean enabled);
+    void setLockscreenAlbumArt(boolean enabled);
 }
 

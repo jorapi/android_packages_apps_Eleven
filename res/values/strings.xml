@@ -50,7 +50,7 @@
     <string name="menu_clear_list">Clear list</string>
     <string name="menu_clear_recents">Clear recent</string>
     <string name="menu_clear_queue">Clear queue</string>
-    <string name="menu_save_queue">Save queue</string>
+    <string name="menu_save_queue">Save queue to playlist</string>
     <string name="menu_equalizer">Equalizer</string>
 
     <!-- Playlist items -->
@@ -140,6 +140,10 @@
     <string name="settings_show_music_visualization_title">Show music visualization</string>
     <string name="settings_show_lyrics_title">Show song lyrics</string>
     <string name="settings_show_lyrics_summary">For songs that have an srt file</string>
+    <string name="settings_shake_to_play">Shake to Play</string>
+    <string name="settings_shake_to_play_summary">Shake your device to play next song</string>
+    <string name="settings_lockscreen_album_art">Lockscreen album art</string>
+    <string name="settings_lockscreen_album_art_summary">Replace lockscreen background with album art</string>
 
     <!-- App widget -->
     <string name="app_widget_small">Music: 4 \u00d7 1</string>

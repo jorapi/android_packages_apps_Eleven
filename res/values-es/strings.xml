@@ -44,7 +44,7 @@
   <string name="menu_clear_list">Limpiar lista</string>
   <string name="menu_clear_recents">Limpiar recientes</string>
   <string name="menu_clear_queue">Limpiar cola</string>
-  <string name="menu_save_queue">Guardar cola</string>
+  <string name="menu_save_queue">Guardar cola en la lista</string>
   <string name="menu_equalizer">Ecualizador</string>
   <string name="add_to_playlist">Añadir a la lista</string>
   <string name="add_to_queue">Añadir a la cola</string>
@@ -114,6 +114,14 @@
   <string name="settings_download_only_on_wifi_summary">No descargar contenido en redes móviles para reducir los cargos del operador</string>
   <string name="settings_download_missing_artwork_title">Obtener carátulas</string>
   <string name="settings_download_artist_images_title">Obtener fotos de artistas</string>
+  <string name="settings_general_category">General</string>
+  <string name="settings_show_music_visualization_title">Mostrar visualización musical</string>
+  <string name="settings_show_lyrics_title">Mostrar las letras de las canciones</string>
+  <string name="settings_show_lyrics_summary">Para canciones que tienen un archivo srt</string>
+  <string name="settings_shake_to_play">Agitar para reproducir</string>
+  <string name="settings_shake_to_play_summary">Agitar el dispositivo para reproducir la siguiente canción</string>
+  <string name="settings_lockscreen_album_art">Portada en pantalla de bloqueo</string>
+  <string name="settings_lockscreen_album_art_summary">Reemplazar la pantalla de bloqueo con la imagen del álbum</string>
   <string name="app_widget_small">Música: 4 \u00d7 1</string>
   <string name="app_widget_large">Música: 4 \u00d7 2</string>
   <string name="app_widget_large_alt">Música: 4 \u00d7 2 (alternativo)</string>
@@ -135,6 +143,7 @@
   <string name="empty_generic_secondary">Para copiar música del ordenador al dispositivo, utiliza un cable USB.</string>
   <string name="empty_queue_main">No hay canciones en la cola</string>
   <string name="empty_queue_secondary">Para añadir canciones a la cola, toca en el menú de opciones de una canción, álbum o artista y selecciona \u00ABAñadir a la cola\u00BB.</string>
+  <string name="error_playing_track">Incapaz de leer la pista %1$s</string>
   <string name="header_unknown_year">Año desconocido</string>
   <string name="header_less_than_30s">Menos de 30 segundos</string>
   <string name="header_30_to_60_seconds">30 - 60 segundos</string>
@@ -151,6 +160,7 @@
   <string name="header_5_to_9_songs">5 - 9 canciones</string>
   <string name="header_10_plus_songs">10+ canciones</string>
   <string name="header_5_plus_albums">5+ álbumes</string>
+  <string name="header_other">"Otro"</string>
   <string name="footer_search_artists">Mostrar todos los artistas</string>
   <string name="footer_search_albums">Mostrar todos los álbumes</string>
   <string name="footer_search_songs">Mostrar todas las canciones</string>
