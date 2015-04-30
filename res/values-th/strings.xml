@@ -44,7 +44,6 @@
   <string name="menu_clear_list">ล้างรายการ</string>
   <string name="menu_clear_recents">ล้างรายการล่าสุด</string>
   <string name="menu_clear_queue">ล้างคิว</string>
-  <string name="menu_save_queue">บันทึกคิว</string>
   <string name="menu_equalizer">Equalizer</string>
   <string name="add_to_playlist">เพิ่มไปยังรายการเพลง</string>
   <string name="add_to_queue">เพิ่มไปยังคิว</string>
@@ -114,6 +113,10 @@
   <string name="settings_download_only_on_wifi_summary">เพื่อประหยัดค่าใช้จ่าย,ไม่ควรดาวน์โหลดผ่านเครือข่ายมือถือ</string>
   <string name="settings_download_missing_artwork_title">ดาวน์โหลดปกอัลบั้มที่หายไป</string>
   <string name="settings_download_artist_images_title">ดาวน์โหลดภาพศิลปินที่หายไป</string>
+  <string name="settings_general_category">ทั่วไป</string>
+  <string name="settings_show_music_visualization_title">แสดงภาพเคลื่อนไหวประกอบเพลง</string>
+  <string name="settings_show_lyrics_title">แสดงเนื้อเพลง</string>
+  <string name="settings_show_lyrics_summary">สำหรับเพลงที่มีไฟล์ srt</string>
   <string name="app_widget_small">เพลง: 4 \u00d7 1</string>
   <string name="app_widget_large">เพลง: 4 \u00d7 1</string>
   <string name="app_widget_large_alt">เพลง: 4 \u00d7 2 (สำรอง)</string>
@@ -135,6 +138,7 @@
   <string name="empty_generic_secondary">คัดลอกเพลงจากคอมพิวเตอร์ของคุณสู่อุปกรณ์ผ่านสาย USB</string>
   <string name="empty_queue_main">ไม่มีเพลงในคิวเล่น</string>
   <string name="empty_queue_secondary">เพิ่ทเพิ่มเพลงไปยังรายการที่เล่น,แตะเมนูบนเพลง,อัลบั้มหรือศิลปินและเลือก \"เพิ่มไปยังคิวเล่น\"</string>
+  <string name="error_playing_track">ไม่สามารถเล่นเพลง %1$s</string>
   <string name="header_unknown_year">ไม่ทราบปี</string>
   <string name="header_less_than_30s">น้อยกว่า 30 วินาที</string>
   <string name="header_30_to_60_seconds">30 - 60 วินาที</string>
@@ -151,6 +155,7 @@
   <string name="header_5_to_9_songs">5 - 9 เพลง</string>
   <string name="header_10_plus_songs">10+ เพลง</string>
   <string name="header_5_plus_albums">5+ อัลบั้ม</string>
+  <string name="header_other">"อื่นๆ"</string>
   <string name="footer_search_artists">แสดงศิลปินทั้งหมด</string>
   <string name="footer_search_albums">แสดงอัลบั้มทั้งหมด</string>
   <string name="footer_search_songs">แสดงเพลงทั้งหมด</string>

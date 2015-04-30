@@ -30,9 +30,9 @@
   <string name="header_top_songs">Beste Liedjies</string>
   <string name="header_all_songs">Alle Liedjies</string>
   <string name="menu_settings">Instellings</string>
-  <string name="menu_search">Soek</string>
+  <string name="menu_search">Soektog</string>
   <string name="menu_shuffle_item">Skommel</string>
-  <string name="menu_shuffle_all">Skommel almal</string>
+  <string name="menu_shuffle_all">Skommel alles</string>
   <string name="menu_shuffle_playlist">Skommel speellys</string>
   <string name="menu_shuffle_album">Skommel album</string>
   <string name="menu_shuffle_artist">Skommel kunstenaar</string>
@@ -41,10 +41,9 @@
   <string name="menu_shuffle_last_added">Skommel laaste bygevoeg</string>
   <string name="menu_play_all">Speel almal</string>
   <string name="menu_sort_by">Sorteer volgens</string>
-  <string name="menu_clear_list">Verwyder items</string>
+  <string name="menu_clear_list">Verwyder alle items</string>
   <string name="menu_clear_recents">Verwyder onlangse items</string>
-  <string name="menu_clear_queue">Vee lys uit</string>
-  <string name="menu_save_queue">Stoor speellys</string>
+  <string name="menu_clear_queue">Vee waglys uit</string>
   <string name="menu_equalizer">Klankmenger</string>
   <string name="add_to_playlist">Voeg by speellys</string>
   <string name="add_to_queue">Voeg by waglys</string>
@@ -75,7 +74,7 @@
   <string name="clear_top_tracks_title">Verwyder top liedjies?</string>
   <string name="clear_recent_title">Verwyder onlangs gespeel?</string>
   <string name="clear_last_added">Verwyder laaste bygevoeg?</string>
-  <string name="cannot_be_undone">Hierdie kan nie ontgedaan gemaak word nie</string>
+  <string name="cannot_be_undone">Hierdie kan nie ongedaan gemaak word nie</string>
   <string name="delete_warning">Dit sal permanent kasgeheue foto inskrywings verwyder</string>
   <string name="new_photo">Kies foto vanuit Galery</string>
   <string name="google_search">Google soektog</string>
@@ -114,6 +113,14 @@
   <string name="settings_download_only_on_wifi_summary">Om netwerk kostes te verminder, vermy aflaaie oor jou sellulêre netwerk</string>
   <string name="settings_download_missing_artwork_title">Laai vermiste albumkuns af</string>
   <string name="settings_download_artist_images_title">Laai vermiste kunstenaar foto\'s af</string>
+  <string name="settings_general_category">Algemeen</string>
+  <string name="settings_show_music_visualization_title">Wys musiek visualisering</string>
+  <string name="settings_show_lyrics_title">Wys lirieke van liedjies</string>
+  <string name="settings_show_lyrics_summary">Vir liedjies wat \'n srt lêer het</string>
+  <string name="settings_shake_to_play">Skud</string>
+  <string name="settings_shake_to_play_summary">Skud jou toestel om volgende liedjie te speel</string>
+  <string name="settings_lockscreen_album_art">Slotskerm foto album kuns</string>
+  <string name="settings_lockscreen_album_art_summary">Vervang slotskerm agtergrond foto album kuns</string>
   <string name="app_widget_small">Musiek: 4 \u00d7 1</string>
   <string name="app_widget_large">Musiek: 4 \u00d7 2</string>
   <string name="app_widget_large_alt">Musiek: 4 \u00d7 2 (alternatief)</string>
@@ -135,6 +142,7 @@
   <string name="empty_generic_secondary">Om musiek van jou rekenaar na jou toestel te kopieer, gebruik \'n USB-kabel.</string>
   <string name="empty_queue_main">Geen liedjies in speel waglys</string>
   <string name="empty_queue_secondary">Om Liedjies by te voeg tot jou speel waglys, raak die opsies kieslys op \'n liedjie, album of kunstenaar en kies \"Voeg by waglys\".</string>
+  <string name="error_playing_track">Kon nie snit (%1$s) speel nie</string>
   <string name="header_unknown_year">Onbekende jaar</string>
   <string name="header_less_than_30s">Minder as 30 sekondes</string>
   <string name="header_30_to_60_seconds">30 - 60 sekondes</string>
@@ -151,6 +159,7 @@
   <string name="header_5_to_9_songs">5 - 9 liedjies</string>
   <string name="header_10_plus_songs">10+ liedjies</string>
   <string name="header_5_plus_albums">5+ albums</string>
+  <string name="header_other">"Ander"</string>
   <string name="footer_search_artists">Wys alle kunstenaars</string>
   <string name="footer_search_albums">Wys alle albums</string>
   <string name="footer_search_songs">Wys alle liedjies</string>

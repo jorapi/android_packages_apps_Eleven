@@ -24,27 +24,27 @@
   <string name="page_songs">Nummers</string>
   <string name="page_playlists">Afspeellijsten</string>
   <string name="page_genres">Genres</string>
-  <string name="page_now_playing">Speelt nu</string>
+  <string name="page_now_playing">Nu afspelen</string>
   <string name="page_play_queue">Wachtrij</string>
   <string name="header_albums">Albums</string>
-  <string name="header_top_songs">Topnummers</string>
+  <string name="header_top_songs">Beste nummers</string>
   <string name="header_all_songs">Alle nummers</string>
   <string name="menu_settings">Instellingen</string>
   <string name="menu_search">Zoeken</string>
-  <string name="menu_shuffle_item">Shufflen</string>
-  <string name="menu_shuffle_all">Alles shufflen</string>
-  <string name="menu_shuffle_playlist">Afspeellijst shufflen</string>
-  <string name="menu_shuffle_album">Album shufflen</string>
-  <string name="menu_shuffle_artist">Artiest shufflen</string>
-  <string name="menu_shuffle_top_tracks">Topnummers shufflen</string>
-  <string name="menu_shuffle_recent">Recent afgespeelde nummer shufflen</string>
-  <string name="menu_shuffle_last_added">Laatst toegevoegd shufflen</string>
+  <string name="menu_shuffle_item">Shuffle</string>
+  <string name="menu_shuffle_all">Shuffle alles</string>
+  <string name="menu_shuffle_playlist">Shuffle afspeellijst</string>
+  <string name="menu_shuffle_album">Shuffle album</string>
+  <string name="menu_shuffle_artist">Shuffle artiest</string>
+  <string name="menu_shuffle_top_tracks">Shuffle beste nummers</string>
+  <string name="menu_shuffle_recent">Shuffle recente nrs.</string>
+  <string name="menu_shuffle_last_added">Shuffle laatst toegevoegd</string>
   <string name="menu_play_all">Alles afspelen</string>
   <string name="menu_sort_by">Sorteren op</string>
   <string name="menu_clear_list">Lijst wissen</string>
   <string name="menu_clear_recents">Recente items wissen</string>
   <string name="menu_clear_queue">Wachtrij wissen</string>
-  <string name="menu_save_queue">Wachtrij opslaan</string>
+  <string name="menu_save_queue">Wachtrij opslaan als afspeellijst</string>
   <string name="menu_equalizer">Equalizer</string>
   <string name="add_to_playlist">Toevoegen aan afspeellijst</string>
   <string name="add_to_queue">Toevoegen aan wachtrij</string>
@@ -63,7 +63,7 @@
   <string name="sort_order_entry_filename">Bestandsnaam</string>
   <string name="playlist_last_added">Laatst toegevoegd</string>
   <string name="playlist_recently_played">Recent afgespeeld</string>
-  <string name="playlist_top_tracks">Mijn topnummers</string>
+  <string name="playlist_top_tracks">Mijn beste nummers</string>
   <string name="new_playlist">Nieuwe afspeellijst</string>
   <string name="save">Opslaan</string>
   <string name="cancel">Annuleren</string>
@@ -72,7 +72,7 @@
   <string name="new_playlist_name_template">Afspeellijst <xliff:g id="number">%d</xliff:g></string>
   <string name="create_playlist_prompt">Naam afspeellijst</string>
   <string name="delete_dialog_title">\'<xliff:g id="item" example="album">%s</xliff:g>\' verwijderen?</string>
-  <string name="clear_top_tracks_title">Topnummers wissen?</string>
+  <string name="clear_top_tracks_title">Beste nummers wissen?</string>
   <string name="clear_recent_title">Recent afgespeelde nummers wissen?</string>
   <string name="clear_last_added">Laatst toegevoegde wissen?</string>
   <string name="cannot_be_undone">Dit kan niet ongedaan worden gemaakt</string>
@@ -102,7 +102,7 @@
   <string name="accessibility_repeat_all">Alles herhalen</string>
   <string name="accessibility_repeat_one">Eén herhalen</string>
   <string name="accessibility_queue">Wachtrij openen</string>
-  <string name="accessibility_browse">Muziek doorbladeren</string>
+  <string name="accessibility_browse">Muziek verkennen</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' ingesteld als beltoon</string>
   <string name="playlist_renamed">Naam afspeellijst gewijzigd</string>
   <string name="settings_ui_category">Uiterlijk</string>
@@ -114,10 +114,18 @@
   <string name="settings_download_only_on_wifi_summary">Om gegevensgebruik te verminderen, niet downloaden via mobiele gegevensverbinding</string>
   <string name="settings_download_missing_artwork_title">Albumhoezen downloaden</string>
   <string name="settings_download_artist_images_title">Artiestenafbeeldingen downloaden</string>
+  <string name="settings_general_category">Algemeen</string>
+  <string name="settings_show_music_visualization_title">Muziekvisualisaties weergeven</string>
+  <string name="settings_show_lyrics_title">Songteksten weergeven</string>
+  <string name="settings_show_lyrics_summary">Voor nummers met een srt-bestand</string>
+  <string name="settings_shake_to_play">Schudden voor afspelen</string>
+  <string name="settings_shake_to_play_summary">Uw apparaat schudden om het volgende nummer af te spelen</string>
+  <string name="settings_lockscreen_album_art">Albumhoes op vergrendelingsscherm</string>
+  <string name="settings_lockscreen_album_art_summary">Achtergrond vergrendelingsscherm vervangen door albumhoes</string>
   <string name="app_widget_small">Muziek: 4 \u00d7 1</string>
   <string name="app_widget_large">Muziek: 4 \u00d7 2</string>
   <string name="app_widget_large_alt">Muziek: 4 \u00d7 2 (alternatief)</string>
-  <string name="app_widget_recent">Muziek: recent geluisterd</string>
+  <string name="app_widget_recent">Muziek: recent beluisterd</string>
   <string name="no_effects_for_you">Kan equalizer niet openen.</string>
   <string name="empty_music">Om muziek van uw computer te kopiëren naar uw apparaat, kunt u een USB-kabel gebruiken.</string>
   <string name="empty_search">Geen zoekresultaten gevonden</string>
@@ -127,7 +135,7 @@
   <string name="empty_recent">Nummers waar u recent naar heeft geluisterd worden hier getoond.</string>
   <string name="empty_playlist_main">Geen nummers in afspeellijst</string>
   <string name="empty_playlist_secondary">Om nummers toe te voegen aan deze afspeellijst, tik op het menu van een nummer, album of artiest en selecteer \'Toevoegen aan afspeellijst\'.</string>
-  <string name="empty_top_tracks_main">Geen topnummers</string>
+  <string name="empty_top_tracks_main">Geen beste nummers</string>
   <string name="empty_top_tracks_secondary">Nummers waar u het meest naar luistert worden toegevoegd aan deze lijst.</string>
   <string name="empty_last_added_main">Geen nummers recent toegevoegd</string>
   <string name="empty_last_added">Nummers die u in de afgelopen maand heeft toegevoegd worden hier getoond.</string>
@@ -135,6 +143,7 @@
   <string name="empty_generic_secondary">Om muziek van uw computer te kopiëren naar uw apparaat, kunt u een USB-kabel gebruiken.</string>
   <string name="empty_queue_main">Geen nummers in wachtrij</string>
   <string name="empty_queue_secondary">Om nummers toe te voegen aan de wachtrij, tik op het menu van een nummer, album of artiest en selecteer \'Toevoegen aan wachtrij\'.</string>
+  <string name="error_playing_track">Kan nummer %1$s niet afspelen</string>
   <string name="header_unknown_year">Onbekend jaar</string>
   <string name="header_less_than_30s">Minder dan 30 seconden</string>
   <string name="header_30_to_60_seconds">30 - 60 seconden</string>
@@ -151,6 +160,7 @@
   <string name="header_5_to_9_songs">5 - 9 nummers</string>
   <string name="header_10_plus_songs">10+ nummers</string>
   <string name="header_5_plus_albums">5+ albums</string>
+  <string name="header_other">"Overig"</string>
   <string name="footer_search_artists">Alle artiesten tonen</string>
   <string name="footer_search_albums">Alle albums tonen</string>
   <string name="footer_search_songs">Alle nummers tonen</string>
